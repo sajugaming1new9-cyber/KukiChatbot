@@ -16,9 +16,9 @@ MONGO_URL = os.environ.get("MONGO_URL", None)
 
 bot = Client(
     "KukiBot" ,
-    api_id =33815657
-    api_hash =5481abc91d6bcac329b9b12f82b44017,
-    bot_token =8912084580:AAEWu1A_OqL8Jm3KR20dCKo1u-YphKqM-gw
+    api_id = 33815657
+    api_hash = 5481abc91d6bcac329b9b12f82b44017,
+    bot_token = 8912084580:AAEWu1A_OqL8Jm3KR20dCKo1u-YphKqM-gw
 )
 
 async def is_admins(chat_id: int):
